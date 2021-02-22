@@ -2,9 +2,9 @@ require('dotenv').config();
 import mongoose from 'mongoose'
 import Insert from '../insert';
 
-const connectDB = async (reset: Boolean) => {
+const connectDB = async (reset) => {
     try {
-        const databaseName : any = process.env.MONGODB_URI;
+        const databaseName = process.env.MONGODB_URI;
         const con = await mongoose.connect(databaseName, { 
         useNewUrlParser: true,
         useUnifiedTopology: true,
