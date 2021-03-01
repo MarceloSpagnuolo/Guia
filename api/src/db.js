@@ -60,8 +60,9 @@ const { Phone, Category, User, Service, Delivery } = sequelize.models;
 // Product.hasMany(Reviews);
 
 Category.hasMany(Phone);
+Phone.belongsTo(Category);
 Category.hasMany(Service);
-Category.hasToMany(Delivery);
+Category.hasMany(Delivery);
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
