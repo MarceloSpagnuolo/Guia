@@ -1,0 +1,67 @@
+.Phone-Container {
+    background-color: #f0f0f0;
+    height: 90vh;
+}
+
+.Phone-Cont-Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Phone-Img-Cabecera {
+    width: 100vw;
+    height: 40vw;
+    object-fit: cover;
+    margin: 0;
+    filter: blur(4px);
+}
+
+.Phone-Titulo {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 7vw;
+    color: blue;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0 0 3vw black;
+}
+
+.Phone-Table {
+    width: 100vw;
+}
+
+.Phone-Td-Name {
+    border: 1px solid gray;
+}
+
+.Phone-Table a {
+    text-decoration: none;
+    font-size: 5vw;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 2.5vw;
+    color: white;
+}
+
+.Phone-Table a:active {
+    background-color: darkturquoise;
+}
+
+.Phone-Td {
+    width: 30vw;
+    height: 10vw;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 2.5vw;
+}
+
+.Phone-Td:active {
+    background-color: darkturquoise;
+}
+
+.Phone-Cont-Table {
+    height: 60vh;
+    overflow-y: auto;
+}

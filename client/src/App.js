@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import { Route } from "react-router-dom";
+import Navigation from "../src/components/Navigation/NavBar";
+import Home from "../src/components/Home/Home";
+import CategoryPhone from "../src/components/Phones/Category";
+import Phones from "../src/components/Phones/Phones";
+import CategoryService from "../src/components/Services/Category";
+import CategoryDelivery from "../src/components/Deliveries/Category";
+import info from "../src/components/Info/info";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/category_phones" component={CategoryPhone} />
+      <Route exact path="/phones/:categoryId" component={Phones} />
+      <Route exact path="/category_services" component={CategoryService} />
+      <Route exact path="/category_deliveries" component={CategoryDelivery} />
+      <Route exact path="/info" component={info} />
+    </>
   );
 }
 

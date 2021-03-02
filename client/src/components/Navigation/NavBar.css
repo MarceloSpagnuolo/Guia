@@ -1,0 +1,33 @@
+.Barra-Container {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.Barra-Lateral {
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+    padding: 1vh;
+    border: 1px solid lightgray;
+    background-color: orange;
+}
+
+.Barra-Lateral img {
+    width: 8vW;
+}
+
+.Barra-Central {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    border: 1px solid lightgray;
+    background-color: orange;
+}
+
+.Barra-Central img {
+    width: 12vw;
+}

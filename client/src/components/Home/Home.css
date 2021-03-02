@@ -1,0 +1,50 @@
+.Home-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f0f0f0;
+}
+
+.Home-Container-Phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home-Container-Phone p {
+    margin: 0;
+}
+
+.Home-Container-Dos {
+    display: flex;
+}
+
+.Home-Img-Phone {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+    border: 2vw solid blue;
+    box-shadow: 1vw 1vw 3vw gray;
+}
+
+.Home-Img-Delivery {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+    border: 2vw solid green;
+    margin-top: 0;
+    margin-right: 2vw;
+    box-shadow: 1vw 1vw 3vw gray;
+}
+
+.Home-Img-Service {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+    border: 2vw solid red;
+    margin-top: 0;
+    margin-left: 2vw;
+    box-shadow: 1vw 1vw 3vw gray;
+}

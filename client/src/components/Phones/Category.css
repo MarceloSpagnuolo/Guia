@@ -1,0 +1,45 @@
+.CatPhone-Contenedor-Img {
+    background-color: #f0f0f0;
+}
+
+.CatPhone-Img-Cabecera {
+    width: 100vw;
+    height: 40vw;
+    object-fit: cover;
+    margin: 0;
+    filter: blur(4px);
+}
+
+.CatPhone-Titulo {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 7vw;
+    top: 10vw;
+    left: 26vw;
+    color: blue;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0 0 3vw black;
+}
+
+.CatPhone-Botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.CatPhone-Botones button {
+    width: 70vw;
+    height: 6vh;
+    margin: 2vw;
+    font-size: 5vw;
+    box-shadow: 1vw 1vw 2vw gray;
+    border-radius: 2vw;
+    border: none;
+    background-color: blue;
+    color: white;
+}

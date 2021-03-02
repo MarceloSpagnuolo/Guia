@@ -1,0 +1,24 @@
+.CatServ-Cont-Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CatServ-Img-Header {
+    width: 100vw;
+    height: 40vw;
+    object-fit: cover;
+    margin: 0;
+    filter: blur(4px);
+}
+
+.CatServ-Titulo {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 7vw;
+    color: red;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0 0 3vw black;
+}

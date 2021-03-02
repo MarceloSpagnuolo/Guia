@@ -13,7 +13,7 @@ server.get("/:categoryId", async (req, res) => {
             "name"
         ]
     });
-    phones && phones.length > 0 ? res.json(phones) : res.send("No se encontraron teléfonos con esa categoría").status(404);
+    phones && phones.length > 0 ? res.json(phones).status(200) : res.send("No se encontraron teléfonos con esa categoría").status(404);
     
 });
     

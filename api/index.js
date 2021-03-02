@@ -22,7 +22,7 @@ const { conn } = require('./src/db.js');
 const { query } = require('./INSERT');
 require('dotenv').config();
 // Syncing all the models at once.
-const force = true;
+const force = false;
 conn.sync({ force }).then(() => {
   if (force) {
     query();
