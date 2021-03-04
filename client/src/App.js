@@ -6,6 +6,7 @@ import Phones from "../src/components/Phones/Phones";
 import CategoryService from "../src/components/Services/Category";
 import CategoryDelivery from "../src/components/Deliveries/Category";
 import info from "../src/components/Info/info";
+import Delivery from "../src/components/Deliveries/Delivery";
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/category_services" component={CategoryService} />
       <Route exact path="/category_deliveries" component={CategoryDelivery} />
       <Route exact path="/info" component={info} />
+      <Route exact path="/delivery" component={Delivery} />
     </>
   );
 }
