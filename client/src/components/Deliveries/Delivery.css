@@ -1,0 +1,65 @@
+.Deli-Img-Cabecera {
+    width: 100vw;
+    height: 40vw;
+    object-fit: cover;
+    margin: 0;
+}
+
+.Deli-Cont-Titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.Deli-Cont-Tel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Deli-Tel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    text-align: center;
+}
+
+.Deli-Tel a {
+    text-decoration: none;
+    font-size: 5vw;
+    background-color: cornflowerblue;
+    width: 90%;
+    padding: 2vw;
+    border-radius: 2.5vw;
+    margin: 1vw;
+    color: white;
+}
+
+.Deli-Tit-Horario {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.Deli-Horario {
+    border: 1px solid gray;
+}
+
+.Deli-Cont-Menu {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.Deli-Cont-Menu a {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    width: 50vw;
+    padding: 2vw;
+    margin-top: 4vw;
+    border-radius: 5vw;
+    color: white;
+}
+
+.Deli-Contenedor {
+    background-color: #f0f0f0;
+    margin-bottom: 10vw;
+}

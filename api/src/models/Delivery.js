@@ -25,7 +25,7 @@ module.exports = (sequelize) => {
             allowNull: true,
         },
         menu: {
-            type: DataTypes.STRING,
+            type: DataTypes.BLOB,
             allowNull: true,
         },
         coverImage: {
